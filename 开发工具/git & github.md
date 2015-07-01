@@ -70,10 +70,10 @@
 
 ***
 
-*参考资料：*
-[git官网](https://git-scm.com/)
-[github官网](https://github.com/)
-[如何在GitHub上协作开发开源项目？](http://os.51cto.com/art/201308/408674.htm)
-[如何在Github上为开源贡献力量？](http://blog.jobbole.com/65147/)
+*参考资料：*  
+[git官网](https://git-scm.com/)  
+[github官网](https://github.com/)  
+[如何在GitHub上协作开发开源项目？](http://os.51cto.com/art/201308/408674.htm)  
+[如何在Github上为开源贡献力量？](http://blog.jobbole.com/65147/)  
 [版本控制入门 – 搬进 Github](http://www.imooc.com/learn/390)
 
