@@ -33,15 +33,16 @@
 5. git push
  
 ## git时光穿梭
-**git log** 查看最近3次提交的信息
-**git reset --hard HEAD^** 回到上一个版本
-**git reset --hard 3628164** 回到指定的版本，由commit id指定
+**git log** 查看最近3次提交的信息  
+**git reset --hard HEAD^** 回到上一个版本  
+**git reset --hard 3628164** 回到指定的版本，由commit id指定  
 **git reflog** 查看历史命令
 
 ## 使用github的几种场景
 
 ### 报告一个issue
 当你在使用开源项目的过程中遇到bug，但是你不知道如何去修复它，可以给项目提一条issue，写明issue的标题和描述，描述支持markdown
+
 #### 对issue的建议
 * 搜索开放和已经关闭的issue来检查你现在提出的issue是否已经被提及，发布重复的issue会让双方都降低效率
 * 请明确你的问题：期望的输出是什么？实际发生了什么？以及其他人如何复现你的问题
@@ -58,6 +59,7 @@
 4. 在本地进行开发
 5. 将master分支推送回你的fork
 6. 创建一个pull request
+
 #### 对pull request的建议
 * 时常从上游Pull变更，保证在提交你的pull request时是最新版本，从而减少合并冲突的可能性
 * 为你的编辑创建一个分支
