@@ -3,18 +3,18 @@
 ## 安装git
 
 ### osx
-1. brew install git
-2. 下载安装，地址：[https://git-scm.com/download/mac](https://git-scm.com/download/mac)
+* brew install git
+* 下载安装，地址：[https://git-scm.com/download/mac](https://git-scm.com/download/mac)
 
 ### linux
-1. apt-get install git
-2. yum install git
+* apt-get install git
+* yum install git
 
 ### windows
-1. 下载安装，地址：[https://git-scm.com/download/win](https://git-scm.com/download/win)
+* 下载安装，地址：[https://git-scm.com/download/win](https://git-scm.com/download/win)
 
 ### 安装GUI（推荐）
-1. 下载地址：[https://git-scm.com/downloads/guis](https://git-scm.com/downloads/guis)
+* 下载地址：[https://git-scm.com/downloads/guis](https://git-scm.com/downloads/guis)
 
 ## 使用git的几种场景
 
