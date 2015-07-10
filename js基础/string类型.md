@@ -4,11 +4,7 @@
 ##1,charCodeAt方法，返回一个整数，代表制定位置字符的Unicode编码
 example：  
 
-    var str="ABC";  
-
-    str.charCodeAt(0);   
-
-    ==>65   
+    var str="ABC";   str.charCodeAt(0);   ==>65   
 
 
 ## 2,formCharCode方法，从一些unicode字符串中返回一个字符串
@@ -26,11 +22,7 @@ example:
 
 example:   
 
-    var str="ABC";   
-
-    str.charAt(1);   
-
-    ==>B   
+    var str="ABC";   str.charAt(1);   ==>B   
 
 
 ## 4,slice方法,返回字符串片段
@@ -198,18 +190,15 @@ example：
 
 说明：   
 
-separator字符串或 正则表达式 对象，它标识了分隔字符串时使用的是一个还是多个字符。如果忽   
+separator  字符串或 正则表达式 对象，它标识了分隔字符串时使用的是一个还是多个字符。如果忽   
 略该选项，返回包含整个字符串的单一元素数组。   
 
-limit该值用来限制返回数组中的元素个数。   
+limit  该值用来限制返回数组中的元素个数。   
 
 example：   
 
-    var str = "AA BB CC DD EE FF";   
-
-    str.split(" ",3);   
-
-    ==>AA,BB,CC   
+    var str = "AA BB CC DD EE FF";   str.split(" ",3);   ==>AA,BB,CC  
+	var str = "2:3:4:5"; str.split(":")  ==>2,3,4,5
 
 
 ## 12,toLowerCase方法返回一个字符串，该字符串中的字母被转换成小写。   
@@ -231,7 +220,38 @@ example：
     str.toUpperCase();   
 
     ==>ABCABC   
+## 14,replace方法用于在字符串中用一些字符替换另一些字符，或替换一个与正则表达式匹配的字符串  
+  stringObject.replace(regexp/subStr,replacement)  
+  
+  说明:  
+  regexp/subStr  必需，规定子字符串或要替换的模式的RegExp对象  
+  replacement    必需，一个子字符串值。规定了替换文本或替换文本的函数  
+  例子：    
+  
+		var str="Hello World!"; str.replace(/World!/,"Jerry");  ==> Hello Jerry!  
+		
+		var str="Hello World!";str.replace("World","Jerry");  ==>Hello Jerry!
 
+## 14,match方法可在字符串内检索指定的值，或找到一个或多个正则表达式的匹配，该方法类似indexOf()和lastIndexOf(),但是它返回指定的值，而不是字符串的位置  
+
+语法：  
+	stringObject(searchValue);  
+	stringObject(regExp);  
+	
+说明：  
+
+	searchValue   必需，规定要检索的字符串
+	regExp        必需，规定要匹配的模式的RegExp对象  
+	
+	例子：
+	var str="Hello world!"
+	str.match("world")		==> world  
+	str.match("World")		==>null
+	str.match("worlld")		==>null
+	str.match("world!")		==>world!  
+	
+	var str="1 plus 2 equal 3";
+	str.match(/\d+/g)   ==> 1,2,3
 
 
 
