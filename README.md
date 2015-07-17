@@ -5,3 +5,4 @@
 
 ### 开发工具
 * [git & github](开发工具/git & github.md)
+* [sublime快捷键(mac完整版)](sublime快捷键(mac完整版).md)
